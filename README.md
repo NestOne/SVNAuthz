@@ -12,7 +12,7 @@
 5. 有单独的页面可以方便用户修改SVN密码
 
 SVN的权限控制通过Authz文件内容来控制，主要内容如下
-(```)
+```text
 [groups]
 grp_limit = harry,sally
 
@@ -24,7 +24,7 @@ grp_limit = harry,sally
 
 [/secret2]
 @grp_limit =
-(```)
+```
 
 [groups] 代表用户组的标识
 <组名> = <用户1>,<用户2>,<用户3>
